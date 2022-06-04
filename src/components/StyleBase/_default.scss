@@ -2,13 +2,12 @@
 
 html {
     box-sizing: border-box;
-    font-family: $font-main;
     font-weight: 400;
     text-decoration: none;
     color: #ffffff;
     overflow-x: hidden;
 
-    background-color: #000000;
+    background-color: #06030c;
 }
 
 *,
@@ -77,4 +76,23 @@ p {
 
     margin: 0;
     padding: 0;
+}
+
+// Custom classes
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.btn {
+    font-size: 18px;
+
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    color: #fff;
+
+    padding: 12px 28px;
+
+    border: 1px solid #fff;
 }
