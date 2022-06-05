@@ -11,28 +11,36 @@
 .header__logo {
     font-size: 36px;
     font-weight: 900;
+    margin-right: auto;
 }
 
 .logo__link{
     border: none;
+    text-shadow: 4px 4px 8px #f2ddff60;
     
-    &:hover{
+    &:hover {
+        color: #f2ddff;
+
         border: none;
     }
 }
 
 .header__nav {
-    margin-left: auto;
+    margin-right: 80px;
+    // TODO
+    @media (max-width: 1024px) {
+        display: none;
+        margin-right: 20px;
+    }
 }
 
 .nav__list {
     display: flex;
+    
 }
 
 .nav__item + .nav__item {
     margin-left: 20px;
 }
 
-.header__media {
-    margin-left: 100px;
-}
+// .header__media {}

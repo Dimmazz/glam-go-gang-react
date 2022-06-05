@@ -1,3 +1,27 @@
 .footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    padding: 24px 0;
 
+    background-color: #0f091d;
+
+    border-radius: 8px 8px 4px 4px;
+}
+
+.footer__link{
+    color: #f2ddff;
+}
+
+.footer__title{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.footer__inscription{
+    color: #aaaaaa;
+    font-weight: 300;
+    letter-spacing: -0.75px;
 }

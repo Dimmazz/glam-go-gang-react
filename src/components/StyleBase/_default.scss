@@ -33,7 +33,7 @@ a {
     margin: 0;
     padding: 0;
     border-bottom: 1px solid #00000000;
-    transition: border-bottom .2s ease-in,
+    transition: border .2s ease-in,
         color .2s ease-in;
 
     &:hover {
@@ -82,17 +82,52 @@ p {
 .container{
     width: 80%;
     margin: 0 auto;
+
+    @media (max-width: 1024px) {
+        width: 90%;
+    }
+
+    @media (max-width: 768px) {
+        width: 95%;
+    }
+
+    @media (max-width: 568px) {
+        width: 100%;
+        margin: 0;
+    }
 }
 
 .btn {
     font-size: 18px;
-
     letter-spacing: 0.1em;
-    text-transform: uppercase;
 
-    color: #fff;
+    white-space: nowrap;
+    text-transform: uppercase;
 
     padding: 12px 28px;
 
-    border: 1px solid #fff;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    box-shadow: 2px 2px 8px 0px #f2ddff20;
+
+    transition: box-shadow .3s ease-in,
+    border .2s ease-in,
+    color .2s ease-in;
+
+    &:hover {
+        color: #f2ddff;
+
+        border: 1px solid #f2ddff;
+        box-shadow: 2px 2px 8px 0px #f2ddff80;
+    }
+
+    @media (max-width: 1024px) {
+        font-size: 16px;
+        padding: 10px 22px;
+    }
+
+    @media (max-width: 768px) {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
 }
