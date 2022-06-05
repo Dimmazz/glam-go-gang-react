@@ -1,67 +1,67 @@
 @import "./fonts";
 
 html {
-    box-sizing: border-box;
-    font-weight: 400;
-    text-decoration: none;
-    color: #ffffff;
-    overflow-x: hidden;
+  box-sizing: border-box;
+  font-weight: 400;
+  text-decoration: none;
+  color: #ffffff;
+  overflow-x: hidden;
 
-    background-color: #06030c;
+  background-color: #06030c;
 }
 
 *,
 *::after,
 *::before {
-    box-sizing: inherit;
-    font-family: inherit;
-    font-weight: inherit;
-    text-decoration: inherit;
-    color: inherit;
+  box-sizing: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  text-decoration: inherit;
+  color: inherit;
 }
 
 ol,
 ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 a {
-    text-decoration: none;
-    color: inherit;
-    margin: 0;
-    padding: 0;
-    border-bottom: 1px solid #00000000;
-    transition: border .2s ease-in,
-        color .2s ease-in;
+  text-decoration: none;
+  color: inherit;
+  margin: 0;
+  padding: 0;
+  border-bottom: 1px solid #00000000;
+  transition: border .2s ease-in,
+    color .2s ease-in;
 
-    &:hover {
-        color: #ffffff;
+  &:hover {
+    color: #ffffff;
 
-        border-bottom: 1px solid #969696;
-    }
+    border-bottom: 1px solid #969696;
+  }
 }
 
 img {
-    max-width: 100%;
-    height: auto;
+  max-width: 100%;
+  height: auto;
 }
 
 button {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .hidden {
-    display: none !important;
+  display: none !important;
 }
 
 .view {
-    display: block !important;
+  display: block !important;
 }
 
 .flex {
-    display: flex !important;
+  display: flex !important;
 }
 
 // reset texts tag
@@ -72,62 +72,64 @@ h4,
 h5,
 h6,
 p {
-    font-size: 14px;
+  margin: 0;
+  padding: 0;
+}
 
-    margin: 0;
-    padding: 0;
+p{
+  font-size: 14px;
 }
 
 // Custom classes
-.container{
-    width: 80%;
-    margin: 0 auto;
+.container {
+  width: 80%;
+  margin: 0 auto;
 
-    @media (max-width: 1024px) {
-        width: 90%;
-    }
+  @media (max-width: 1024px) {
+    width: 90%;
+  }
 
-    @media (max-width: 768px) {
-        width: 95%;
-    }
+  @media (max-width: 768px) {
+    width: 95%;
+  }
 
-    @media (max-width: 568px) {
-        width: 100%;
-        margin: 0;
-    }
+  @media (max-width: 568px) {
+    width: 100%;
+    margin: 0;
+  }
 }
 
 .btn {
-    font-size: 18px;
-    letter-spacing: 0.1em;
+  font-size: 18px;
+  letter-spacing: 0.1em;
 
-    white-space: nowrap;
-    text-transform: uppercase;
+  white-space: nowrap;
+  text-transform: uppercase;
 
-    padding: 12px 28px;
+  padding: 12px 28px;
 
-    color: #ffffff;
-    border: 1px solid #ffffff;
-    box-shadow: 2px 2px 8px 0px #f2ddff20;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  box-shadow: 2px 2px 8px 0px #f2ddff20;
 
-    transition: box-shadow .3s ease-in,
+  transition: box-shadow .3s ease-in,
     border .2s ease-in,
     color .2s ease-in;
 
-    &:hover {
-        color: #f2ddff;
+  &:hover {
+    color: #f2ddff;
 
-        border: 1px solid #f2ddff;
-        box-shadow: 2px 2px 8px 0px #f2ddff80;
-    }
+    border: 1px solid #f2ddff;
+    box-shadow: 2px 2px 8px 0px #f2ddff80;
+  }
 
-    @media (max-width: 1024px) {
-        font-size: 16px;
-        padding: 10px 22px;
-    }
+  @media (max-width: 1024px) {
+    font-size: 16px;
+    padding: 10px 22px;
+  }
 
-    @media (max-width: 768px) {
-        font-size: 14px;
-        padding: 8px 16px;
-    }
+  @media (max-width: 768px) {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
 }
