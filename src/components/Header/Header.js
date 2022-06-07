@@ -6,7 +6,7 @@ import HeaderMedia from "./HeaderMedia";
 
 export default function Header(props) {
   return (
-    <header className="header">
+    <header className="header container">
       <HeaderLogo />
       <HeaderNav />
       <HeaderMedia />

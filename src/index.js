@@ -4,7 +4,7 @@ import './components/StyleBase/_base.scss';
 import './index.scss';
 import App from './App';
 
-const root = ReactDOM.createRoot(document.querySelector('.container'));
+const root = ReactDOM.createRoot(document.querySelector('.app'));
 root.render(
   <React.StrictMode>
     <App />

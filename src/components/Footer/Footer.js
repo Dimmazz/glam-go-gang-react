@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Footer(params) {
   return (
-    <footer className="footer">
+    <footer className="footer container">
       <div className="footer__copy">
         <div className="footer__title">
           &#169; 2020 Glam Go!

@@ -1,0 +1,56 @@
+.home {
+    height: calc(100vh - 80px);
+    max-height: 1080px;
+    // 120px - footer (+ margin), 80px - header
+    // background-color: #4a4a4a;
+    background-color: #000000b0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    position: relative;
+
+    &::before {
+        content: "";
+
+        width: 100%;
+        height: 100%;
+
+        position: absolute;
+
+        z-index: -1;
+
+        background: url("./img/sbg-2.jpg") no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+}
+
+.home__wrapper {
+    max-width: 500px;
+    background-color: #111111bf;
+
+    border-radius: 4px;
+
+    margin-left: 50px;
+    padding: 20px 5px 20px 20px;
+}
+
+.home__title {
+    color: #f2ddff;
+
+    text-shadow: 2px 2px 8px #f2ddff40;
+
+    font-size: 36px;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+.home__subtitle {
+    color: #cccccc;
+
+    letter-spacing: -.5px;
+
+    text-shadow: 2px 2px 8px #cccccc60;
+}
