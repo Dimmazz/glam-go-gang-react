@@ -1,7 +1,8 @@
 import React from "react";
-import Gallery from "../Gallery/Gallery";
 import Home from "../Home/Home";
 import Music from "../Music/Music";
+import Gallery from "../Gallery/Gallery";
+import Contacts from "../Contacts/Contacts";
 
 export default function Main(props) {
     return (
@@ -9,6 +10,7 @@ export default function Main(props) {
             <Home />
             <Music />
             <Gallery />
+            <Contacts />
         </main>
     );
 };

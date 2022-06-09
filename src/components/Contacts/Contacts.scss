@@ -1,0 +1,41 @@
+.contacts {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+// .contacts__logo {
+    
+// }
+
+.contacts__text {
+    text-transform: uppercase;
+}
+
+.contacts__title {
+    font-weight: bold;
+    font-size: 32px;
+    border-bottom: 2px solid #f2ddff;
+    color: #f2ddff;
+    
+    padding: 0 10px 5px;
+    margin-bottom: 20px;
+
+    transition: border-bottom .2s ease-in,
+                     color .2s ease-in;
+
+    &:hover{
+        color: #f8f3fb;
+        border-bottom: 2px solid #f8f3fb;
+    }
+}
+
+.contacts__phone {
+    color: #f2ddff;
+    padding-bottom: 5px;
+}
+
+.contacts__social {
+    padding-left: 20px;
+    color: #f2ddff;
+}
