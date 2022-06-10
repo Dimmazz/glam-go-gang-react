@@ -1,9 +1,10 @@
-// .gallery {
-//     max-width: 1920px;
-// }
+.gallery {
+    display: flex;
+}
 
 .gallery__list {
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-around;
 
@@ -11,11 +12,12 @@
 }
 
 .list__item {
-    margin-top: 20px;
-    margin-left: 20px;
-    max-width: 100%;
+    margin-top: 5px;
+    margin-left: 10px;
+    width: 100%;
 }
 
 .item__img {
     border-radius: 8px;
+    width: 100%;
 }

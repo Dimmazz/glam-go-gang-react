@@ -5,10 +5,14 @@ import "./Gallery.scss"
 
 export default function Gallery(props) {
     return (
-        <section className="gallery">
+        <section className="gallery container">
             <ul className="gallery__list">
                 <li className="list__item"><img className="item__img" src={galleryImg} alt="" /></li>
                 <li className="list__item"><img className="item__img" src={galleryImg2} alt="" /></li>
+            </ul>
+            <ul className="gallery__list">
+                <li className="list__item"><img className="item__img" src={galleryImg2} alt="" /></li>
+                <li className="list__item"><img className="item__img" src={galleryImg} alt="" /></li>
             </ul>
         </section>
     );
