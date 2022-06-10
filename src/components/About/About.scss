@@ -7,17 +7,26 @@
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: baseline;
+    padding: 120px 0;
 }
 
 .about__card {
     max-width: 300px;
+
+    margin: 10px 20px;
 }
 
 .card__preview {
     width: 300px;
     height: 375px;
-    
-    // padding-bottom: 40px;
+
+    box-shadow: 6px 2px 16px 0px #f2ddff40;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    margin-bottom: 40px;
 }
 
 // .card__img{}
