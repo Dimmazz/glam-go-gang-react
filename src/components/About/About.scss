@@ -1,13 +1,21 @@
-// .about {
+.about {
+    padding: 120px 0;
+}
 
-// }
+.about_title{
+    font-size: 36px;
+    font-weight: 500;
+    text-shadow: 2px 2px 8px #f2ddff80;
+    text-align: center;
+    padding-bottom: 20px;
+}
 
 .about__inner {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: baseline;
-    padding: 120px 0;
+    
 }
 
 .about__card {

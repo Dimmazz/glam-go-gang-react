@@ -10,6 +10,7 @@ export default function About(props) {
 
     return (
         <section className="about container">
+            <h2 className="about_title">Game Go Gang!</h2>
             <div className="about__inner">
                 <div className="about__card">
                     <div className="card__preview" style={{ backgroundImage: `url(${imgGoneFludd})`}}>
