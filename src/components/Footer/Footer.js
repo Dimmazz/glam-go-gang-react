@@ -4,7 +4,7 @@ import React from "react";
 export default function Footer(params) {
 
   const getYear = () => {
-    let time = new Date()
+    const time = new Date()
     return time.getFullYear()
   }
 
