@@ -6,7 +6,7 @@ import HeaderSocial from "./HeaderSocial";
 
 export default function Header(props) {
   return (
-    <header className="header container">
+    <header className="header container" id="header">
       <HeaderLogo />
       <HeaderNav />
       <HeaderSocial />

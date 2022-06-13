@@ -5,7 +5,7 @@ import "./Contacts.scss";
 
 export default function Contacts(params) {
     return (
-        <section className="contacts container">
+        <section className="contacts container" id="contacts">
             <div className="contacts__logo">
                 <img src={img} alt="" />
             </div>

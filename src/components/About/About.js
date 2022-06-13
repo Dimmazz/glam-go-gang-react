@@ -9,7 +9,7 @@ export default function About(props) {
     console.log(imgGoneFludd);
 
     return (
-        <section className="about container">
+        <section className="about container" id="about">
             <h2 className="about_title">Glam Go Gang!</h2>
             <div className="about__inner">
                 <div className="about__card">

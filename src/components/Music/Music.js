@@ -4,7 +4,7 @@ import "./Music.scss"
 
 export default function Music(params) {
     return (
-        <section className="music">
+        <section className="music" id="music">
             <div className="music__cover">
                 <div className="cover__preview">
                     <img
