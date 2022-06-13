@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/glam-go-gang-react/static/css/main.438a91ec.css",
+    "main.js": "/glam-go-gang-react/static/js/main.8a31626f.js",
+    "static/media/sbg.jpg": "/glam-go-gang-react/static/media/sbg.8f499a07bdf7d9229a99.jpg",
+    "static/media/sbg-2.jpg": "/glam-go-gang-react/static/media/sbg-2.9d5c5508d52414adad2c.jpg",
+    "static/media/cover.jpeg": "/glam-go-gang-react/static/media/cover.7d3646c282874219d5c8.jpeg",
+    "static/media/cakeboy.jfif": "/glam-go-gang-react/static/media/cakeboy.411d2dc85d088daad543.jfif",
+    "static/media/iroh.jpg": "/glam-go-gang-react/static/media/iroh.5f8e90c4b7c4024558f5.jpg",
+    "static/media/flipper-floyd.jpg": "/glam-go-gang-react/static/media/flipper-floyd.53c2ba8028fc9929d177.jpg",
+    "static/media/gone-fludd.jfif": "/glam-go-gang-react/static/media/gone-fludd.195c4424c4e7ea7f57b9.jfif",
+    "index.html": "/glam-go-gang-react/index.html",
+    "main.438a91ec.css.map": "/glam-go-gang-react/static/css/main.438a91ec.css.map",
+    "main.8a31626f.js.map": "/glam-go-gang-react/static/js/main.8a31626f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.438a91ec.css",
+    "static/js/main.8a31626f.js"
+  ]
+}
